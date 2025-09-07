@@ -1,0 +1,53 @@
+/* This is the master css file */
+/* Not certain how the best way to orgainzie css is so this will be a learning process */
+
+/* 
+#0E0E0E
+#301F2D
+#CC333F 
+*/
+
+
+/*Navbar*/
+.Navbar .NavbarTitle {
+  color: white;
+  display: block;
+  float: left;
+  /*i need to fix this later, get title to left */
+}
+
+.Navbar ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0E0E0E;
+}
+
+.Navbar ol li {
+  float: right;
+}
+
+.Navbar ol li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.Navbar ol li a:hover {
+  color: #CC333F;
+  text-decoration: underline;
+  text-decoration-color: #CC333F;
+}
+
+.Navbar a.active {
+  color: #CC333F;
+  text-decoration: underline;
+  text-decoration-color: #CC333F;
+}
+/* */
+
+
+
