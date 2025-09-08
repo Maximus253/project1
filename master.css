@@ -3,40 +3,60 @@
 
 /* 
 #0E0E0E
+#17181D
 #301F2D
 #CC333F 
 */
 
-
-/*Navbar*/
-.Navbar .NavbarTitle {
-  color: white;
-  display: block;
-  float: left;
-  /*i need to fix this later, get title to left */
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: #17181d;
 }
 
-.Navbar ol {
+/*Navbar*/
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0E0E0E;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 16px;
+}
+
+.NavbarTitle {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+.Navbar ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
   overflow: hidden;
   background-color: #0E0E0E;
 }
 
-.Navbar ol li {
-  float: right;
+.Navbar ul li {
+  margin: 0;
+  padding: 0;
 }
 
-.Navbar ol li a {
+.Navbar ul li a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 20px;
 }
 
-.Navbar ol li a:hover {
+.Navbar ul li a:hover {
   color: #CC333F;
   text-decoration: underline;
   text-decoration-color: #CC333F;
@@ -47,7 +67,22 @@
   text-decoration: underline;
   text-decoration-color: #CC333F;
 }
+
+/* crazy stupid solution for padding on the right of the navbar */
+.Navbar ul li:last-child a {
+  padding-right: 35px;
+}
 /* */
 
+.HeroTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* this is full viewport height */
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
 
 
