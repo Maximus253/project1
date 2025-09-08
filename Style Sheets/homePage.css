@@ -1,0 +1,15 @@
+.heroTitle {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.heroButton {
+    padding: 24px 100px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #cc333f;
+    border-color: #cc333f;
+    color: white;
+}

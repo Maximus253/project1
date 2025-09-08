@@ -1,0 +1,93 @@
+/* This is the master css file */
+/* Not certain how the best way to organize css is so this will be a learning process */
+
+/* 
+#0E0E0E
+#17181D
+#301F2D
+#CC333F 
+*/
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    background-color: #17181d;
+}
+
+/*Navbar*/
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0e0e0e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 16px;
+}
+
+.navbarTitle {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    background-color: #0e0e0e;
+}
+
+.navbar ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar ul li a:hover {
+    color: #cc333f;
+    text-decoration: underline;
+    text-decoration-color: #cc333f;
+}
+
+.navbar a.active {
+    color: #cc333f;
+    text-decoration: underline;
+    text-decoration-color: #cc333f;
+}
+
+/* crazy stupid solution for padding on the right of the navbar */
+.navbar ul li:last-child a {
+    padding-right: 35px;
+}
+/* */
+
+/* adjust these as needed */
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 500px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
