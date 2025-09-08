@@ -15,7 +15,7 @@ body {
 }
 
 /*Navbar*/
-.Navbar {
+.navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -27,13 +27,13 @@ body {
   padding: 0 16px;
 }
 
-.NavbarTitle {
+.navbarTitle {
   font-size: 30px;
   color: white;
   font-weight: 600;
 }
 
-.Navbar ul{
+.navbar ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -42,12 +42,12 @@ body {
   background-color: #0E0E0E;
 }
 
-.Navbar ul li {
+.navbar ul li {
   margin: 0;
   padding: 0;
 }
 
-.Navbar ul li a {
+.navbar ul li a {
   display: block;
   color: white;
   text-align: center;
@@ -56,26 +56,26 @@ body {
   font-size: 20px;
 }
 
-.Navbar ul li a:hover {
+.navbar ul li a:hover {
   color: #CC333F;
   text-decoration: underline;
   text-decoration-color: #CC333F;
 }
 
-.Navbar a.active {
+.navbar a.active {
   color: #CC333F;
   text-decoration: underline;
   text-decoration-color: #CC333F;
 }
 
 /* crazy stupid solution for padding on the right of the navbar */
-.Navbar ul li:last-child a {
+.navbar ul li:last-child a {
   padding-right: 35px;
 }
 /* */
 
 /* adjust these as needed */
-.Column {
+.column {
   display: flex;
   flex-direction: column;
   gap: 150px;
@@ -86,7 +86,7 @@ body {
   margin: auto;
 }
 
-.Row {
+.row {
   display: flex;
   flex-direction: row;
   gap: 15px;
