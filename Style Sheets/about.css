@@ -1,0 +1,25 @@
+.pageTitle {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    text-align: left;
+}
+
+.text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.wideColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 1000px;
+    margin: auto;
+}
+
