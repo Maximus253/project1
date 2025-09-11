@@ -16,23 +16,23 @@
             <div class="navbarTitle">The Daily Merge_</div>
             <ul>
                 <!-- Im not sure how we wanna do our routing -->
-                <li><a href="/homePage" class="active">Home</a></li>
+                <li><a href="/homePage">Home</a></li>
                 <li><a href="#Roadmap">Roadmap</a></li>
                 <li><a href="#AdditionalLinks">Additional Links</a></li>
-                <li><a href="/emailPage">Email Us</a></li>
+                <li><a href="/emailPage"  class="active">Email Us</a></li>
                 <li><a href="#AboutUs">About Us</a></li>
             </ul>
         </div>
         <div class="emailColumn">
             <div class="title">Email Us</div>
-            <form>
-                <label for="name">Name:</label><br>
+            <form class="emailForm">
+                <label for="name" class="emailLabel">Name:</label><br>
                 <input type="text" id="name" name="name" class="smallForm"><br>
-                <label for="email">Email:</label><br>
+                <label for="email" class="emailLabel">Email:</label><br>
                 <input type="text" id="name" name="name" class="smallForm"><br>
-                <label for="message">Message:</label><br>
+                <label for="message" class="emailLabel">Message:</label><br>
                 <textarea type="text" id="message" name="message" class="largeForm"></textarea><br>
-                <input type="submit" value="Send">
+                <input type="submit" value="Send" class="emailSubmit">
             </form>
         </div>
     </body>
