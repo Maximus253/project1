@@ -1,0 +1,53 @@
+.pageTitle {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    text-align: left;
+}
+
+.text {
+    font-size: 1.2em;
+    margin: auto;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.wideColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin: auto;
+}
+
+.leftTitleColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: left;
+    align-items: left;
+    width: 1000px;
+    margin: auto;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: white;
+}
+
+.table {
+    margin: auto;
+    border-spacing: 30px;
+    table-layout: fixed;
+    margin: auto;
+}
+
+.table img {
+    border-radius: 10px;
+}
