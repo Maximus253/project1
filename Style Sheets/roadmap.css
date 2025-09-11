@@ -1,0 +1,19 @@
+.roadmapElement
+{
+    background-color: #301F2D;
+    border-radius: 4px;
+    width: 160px;
+    height: 160px;
+    padding: 4px;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+.longArrowCanvas
+{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
