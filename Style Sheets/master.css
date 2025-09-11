@@ -8,10 +8,16 @@
 #CC333F 
 */
 
+html, body {
+    overflow: hidden; /* kills scrolling */
+}
+
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     background-color: #17181d;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 /*Navbar*/
@@ -74,20 +80,12 @@ body {
 }
 /* */
 
-/* adjust these as needed */
 .column {
     display: flex;
     flex-direction: column;
-    gap: 150px;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    margin: auto;
 }
 
 .row {
     display: flex;
     flex-direction: row;
-    gap: 15px;
 }
