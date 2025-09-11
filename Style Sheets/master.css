@@ -8,9 +8,6 @@
 #CC333F 
 */
 
-html, body {
-    overflow: hidden; /* kills scrolling */
-}
 
 body {
     font-family: "Poppins", sans-serif;
