@@ -13,3 +13,14 @@
     border-color: #cc333f;
     color: white;
 }
+
+.heroColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 500px;
+    margin: auto;
+}
