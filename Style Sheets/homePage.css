@@ -1,3 +1,7 @@
+html, body {
+    overflow: hidden; /* kills scrolling */
+}
+
 .heroTitle {
     color: white;
     font-size: 50px;
