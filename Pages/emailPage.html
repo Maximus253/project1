@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="../Style Sheets/master.css" />
-        <link rel="stylesheet" href="../Style Sheets/homePage.css" />
+        <link rel="stylesheet" href="../Style Sheets/emailPage.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -10,23 +10,30 @@
             rel="stylesheet"
         />
     </head>
+
     <body>
         <div class="navbar">
             <div class="navbarTitle">The Daily Merge_</div>
             <ul>
                 <!-- Im not sure how we wanna do our routing -->
-                <li><a href="#Home" class="active">Home</a></li>
+                <li><a href="/homePage">Home</a></li>
                 <li><a href="#Roadmap">Roadmap</a></li>
                 <li><a href="#AdditionalLinks">Additional Links</a></li>
-                <li><a href="emailPage.html">Email Us</a></li>
+                <li><a href="/emailPage"  class="active">Email Us</a></li>
                 <li><a href="#AboutUs">About Us</a></li>
             </ul>
         </div>
-
-        <div class="heroColumn">
-            <div class="heroTitle">Want to Get Started With CS?</div>
-
-            <button class="heroButton">Start Here!</button>
+        <div class="emailColumn">
+            <div class="title">Email Us</div>
+            <form class="emailForm">
+                <label for="name" class="emailLabel">Name:</label><br>
+                <input type="text" id="name" name="name" class="smallForm"><br>
+                <label for="email" class="emailLabel">Email:</label><br>
+                <input type="text" id="name" name="name" class="smallForm"><br>
+                <label for="message" class="emailLabel">Message:</label><br>
+                <textarea type="text" id="message" name="message" class="largeForm"></textarea><br>
+                <input type="submit" value="Send" class="emailSubmit">
+            </form>
         </div>
     </body>
 </html>
