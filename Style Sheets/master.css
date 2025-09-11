@@ -81,9 +81,13 @@ body {
     gap: 150px;
     justify-content: center;
     align-items: center;
-    /*height: 100vh;*/
+    height: 100vh;
     width: 500px;
     margin: auto;
+}
+
+.content {
+    margin-top: 60px; /* Adjust this value based on your navbar height */
 }
 
 .row {
