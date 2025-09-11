@@ -48,3 +48,6 @@
     margin: auto;
 }
 
+.table img {
+    border-radius: 10px;
+}
