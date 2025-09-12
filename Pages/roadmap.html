@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../Style Sheets/master.css" />
+        <link rel="stylesheet" href="../Style Sheets/roadmap.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <script>
+            window.onpageshow = function(event) {
+                if (event.persisted) {
+                    window.location.reload();
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="navbarTitle">The Daily Merge_</div>
+            <ul>
+                <!-- Im not sure how we wanna do our routing -->
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Roadmap" class="active">Roadmap</a></li>
+                <li><a href="#AdditionalLinks">Additional Links</a></li>
+                <li><a href="#EmailUs">Email Us</a></li>
+                <li><a href="#AboutUs">About Us</a></li>
+            </ul>
+        </div>
+        <div class="roadmapRow">
+            <div class="roadmapLine"></div>
+            <div
+                class="roadmapElement"
+                id="element1"
+                onclick="onCardClicked('whyCS.html', 'element2')"
+            >
+                Why CS?
+            </div>
+            <div
+                class="roadmapElement"
+                id="element2"
+                onclick="onCardClicked('whatToDoNow.html', 'element3')"
+            >
+                What To Do Now
+            </div>
+            <div
+                class="roadmapElement"
+                id="element3"
+                onclick="onCardClicked('college.html', 'element4')"
+            >
+                College
+            </div>
+            <div
+                class="roadmapElement"
+                id="element4"
+                onclick="onCardClicked('fields.html', 'element5')"
+            >
+                Fields
+            </div>
+            <div
+                class="roadmapElement"
+                id="element5"
+                onclick="onCardClicked('jobs.html', 'element6')"
+            >
+                Jobs
+            </div>
+            <div class="roadmapElement" id="element6" style="cursor: default">
+                profit :)
+            </div>
+            <button class="roadmapArrow leftArrow" id="leftArrow"></button>
+            <button class="roadmapArrow rightArrow" id="rightArrow"></button>
+        </div>
+        <script src="../JavaScript/roadmap.js"></script>
+    </body>
+</html>
