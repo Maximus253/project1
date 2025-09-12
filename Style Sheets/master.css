@@ -17,6 +17,10 @@ body {
     padding-right: 5%;
 }
 
+a {
+    color: #CC333F;
+}
+
 /*Navbar*/
 .navbar {
     display: flex;
