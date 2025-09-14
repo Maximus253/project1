@@ -78,8 +78,8 @@ a {
 .navbar a.active::after {
     content: "•";
     position: absolute;
-    right: 5px;
     top: 50%;
+    right: 5px;
     transform: translateY(-50%);
     color: #cc333f;
     font-size: 30px;
@@ -87,7 +87,7 @@ a {
 
 /* crazy stupid solution for padding on the right of the navbar */
 .navbar ul li:last-child a {
-    padding-right: 45px;
+    margin-right: 35px;
 }
 /* */
 
