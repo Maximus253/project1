@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+}
+
 .roadmapRow {
     width: 100%;
     height: 100vh;
