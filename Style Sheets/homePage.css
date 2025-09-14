@@ -7,6 +7,7 @@ html, body {
     font-size: 50px;
     font-weight: 600;
     text-align: center;
+    text-shadow: 0px 4px 12px #613337;
 }
 
 .heroButton {
@@ -16,6 +17,14 @@ html, body {
     background-color: #cc333f;
     border-color: #cc333f;
     color: white;
+    box-shadow: 0 4px 12px #613337;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.heroButton:hover {
+    background: #8B272F;
+    border-color: #8B272F;
 }
 
 .heroColumn {
