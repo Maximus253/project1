@@ -87,7 +87,7 @@ a {
 
 /* crazy stupid solution for padding on the right of the navbar */
 .navbar ul li:last-child a {
-    padding-right: 35px;
+    padding-right: 45px;
 }
 /* */
 
