@@ -2,6 +2,7 @@
     font-size: 40px;
     color: white;
     font-weight: 600;
+    padding-top: 15vh;
 }
 
 .emailColumn{
@@ -12,7 +13,6 @@
     align-items: flex-start;
     height: 100vh;
     width: 50vw;
-    padding: 80px;
     box-sizing: border-box;
 }
 
@@ -50,14 +50,10 @@
     min-width: 10%;
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
     border-radius: 10px;
     padding: 10px;
-    border-radius: 10px;
     float: right;
     font-size: 20px;
-    border-radius: 10px;
     background-color: #cc333f;
-    border-color: #cc333f;
     color: white;
 }

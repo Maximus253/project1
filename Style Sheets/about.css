@@ -1,9 +1,10 @@
 .pageTitle {
-    font-size: 2.5em;
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: 600;
     margin-bottom: 20px;
     color: white;
     text-align: left;
+    padding-top: 15vh;
 }
 
 .text {
