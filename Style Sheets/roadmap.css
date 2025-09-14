@@ -21,6 +21,7 @@
     color: gray;
     font-size: xx-large;
     pointer-events: none;
+    transition: background-color 0.2s ease, filter 0.2s ease, color 0.2s ease;
 }
 
 .roadmapElementVisited {
